@@ -1,0 +1,66 @@
+<div class="card position-relative">
+    <h3 class="titulos"> Educación
+    <!--trigger Educacion-->
+    <button type="button" class="btn btn-dark lapiz" data-bs-toggle="modal" data-bs-target="#educacion">
+        <i class="fa-solid fa-pen"></i>
+    </button> </h3>
+
+    <table class="table table-borderless"  >
+         <thead>
+            <tr class="edu">
+            <th scope="col" ><a href="https://ens9001-infd.mendoza.edu.ar/sitio/"><img src="../../../assets/images/iesdyt.png" class="img-fluid" style="max-width: 100%; height: auto;" alt="logo instituto de formacion docente"></a></th>
+                <th scope="col" class="descripcion" style="margin-left: 5em;"><h4> IES 9001 San Martín </h4>
+                    <p class="subtitulos"> Profesorado de Inglés en EGB3 y Polimodal  </p>
+                    <p class="pequeño"> Año de egreso: 2019 </p>
+                </th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr class="edu">
+                <th scope="row" class="codo" ><a href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/"><img src="../../../assets/images/codo a codo.png" class="img-fluid" style="max-width: 100%; height: auto;"  alt="Logo codo a codo"></a></th>
+                <td class="descripcion"  style="margin-left:3em;"><h4> Codo a Codo </h4>
+                    <p class="subtitulos"> Desarrollo Full Stack Python </p>
+                    <p class="pequeño"> Año de egreso: 2022 </p>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
+
+<!-- Modal Educacion -->
+<div class="modal fade" id="educacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Información</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+                
+                <div class="mb-3">
+                    <label for="educacion" class="form-label">Editar Imagen</label>
+                    <input type="url" placeholder="insertar url" id="educacion" name="educacion" required>
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="educacion" style="height: 100px"></textarea>
+                    <label for="educacion">Escribe el texto aquí</label>
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                     <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+          
+        </div>
+       
+      </div>
+    </div>
+</div>

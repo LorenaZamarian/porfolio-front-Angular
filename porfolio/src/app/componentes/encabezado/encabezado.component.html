@@ -1,0 +1,126 @@
+<div class="card ">
+    <div class="banner container-fluid">
+        <img src="../../../assets/images/lenguaje-programacion.jpg" class="card-img-top" id="banner"  alt= "imagen ilustrativa con texto en codigo">
+    </div>
+
+    <div class="triggers">
+        <!--trigger Edicion banner -->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#editarBanner" id="triggerPerfil">
+            Editar Banner
+        </button>
+
+        <!--trigger Edicion Foto de  perfil-->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#editarFotoPerfil" id="triggerPerfil">
+        Editar Foto Perfil
+        </button>
+
+        <!--trigger Edicion Datos del  perfil-->
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#editarDatos" id="triggerPerfil">
+        Editar Datos Perfil
+        </button>
+    </div>
+
+    <section id="perfil">
+            <div class="container-fluid" id="fotoPerfil">
+                <img src="../../../assets/images/perfil2.jpeg" class= "img-fluid rounded-circle " alt="foto perfil persona">
+            </div> 
+            
+            <div class="container-fluid" id="textoPerfil">
+                <h3 class="card-title">Lorena Zamarian</h3>
+                <p class="card-text">Programadora Web Full Stack Jr.</p> 
+                <p class="card-text">Profesora de Inglés</p>
+                <p class="card-text">Mendoza, Argentina</p> 
+            </div>
+    </section>
+        
+
+</div>
+
+<!-- Modal Edicion Banner -->
+<div class="modal fade" id="editarBanner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Imagen</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+                <div class="mb-3">
+                    <label for="editarBanner" class="form-label">URL</label>
+                    <input type="url" placeholder="insertar url" id="editarBanner" name="editarBanner" required>
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                     <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+          
+        </div>
+       
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal Edicion Foto de Perfil -->
+    <div class="modal fade" id="editarFotoPerfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Foto de Perfil</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              
+                <form>
+                    <div class="mb-3">
+                        <label for="editarFotoPerfil" class="form-label">URL</label>
+                        <input type="url" placeholder="insertar url" id="editarFotoPerfil" name="editarFotoPerfil" required>
+                    </div>
+                    
+            
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                         <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </form>
+              
+            </div>
+           
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Edicion Datos de Perfil -->
+    <div class="modal fade" id="editarDatos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Datos del Perfil</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              
+                <form>
+            
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="editarDatos" style="height: 100px"></textarea>
+                        <label for="editarDatos">Escribe el texto aquí</label>
+                    </div>
+                    
+            
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                         <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </form>
+              
+            </div>
+           
+          </div>
+        </div>
+    </div>
+ 

@@ -1,0 +1,95 @@
+<nav class="navbar-expand-lg container-fluid">
+    <div class="row align-items-center navbar" style= "min-width: 100%;">
+        <div class="col col-md-auto"   >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" ><img class="img-fluid" src="../../../assets/images/arg programa.jpg"></a>
+            </div>
+        </div>
+        
+        <div class="col col-md-auto align-items-center container-fluid" id="name" style="margin-left: 0%;">
+            <span>Lorena Zamarian</span>
+        </div>
+
+        <div class="col col-md-auto align-items-center" id="logos">           
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item" style="background-color: #000000; "><a href="https://github.com/LorenaZamarian"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+                <li class="list-group-item" style="background-color: #000000; "><a href="https://www.linkedin.com/in/lorena-zamarian-aa862b1b3/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                <li class="list-group-item" style="background-color: #000000; ">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logInModal" id="botonLog">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                </li>
+                <li class="list-group-item" style="background-color: #000000; ">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#logOutModal"  id="botonLogOut">
+                        <i class="fa-solid fa-unlock"></i>
+                    </button>
+                </li>
+            </ul>
+
+
+        </div>
+          
+    </div>
+    
+  </nav>
+
+   <!-- Modal log in -->
+   <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        
+                <div class="modal-body">
+            
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Direccion de mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+                
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                            <button type="submit" class="btn btn-primary">Ingresar</button>    
+                        </div>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <!-- Modal log out -->
+    <div class="modal fade" id="logOutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Log Out</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            
+                    <div class="modal-body">
+                
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">¿Seguro que quieres salir del modo de edición?</label>
+                             </div>
+                            
+                    
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary">Si</button> 
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                            </div>
+                        </form>
+                    
+                    </div>
+            
+                </div>
+            </div>
+    </div>   

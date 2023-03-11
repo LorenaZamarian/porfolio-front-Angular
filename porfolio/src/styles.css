@@ -1,0 +1,37 @@
+.card{
+    padding-left: 1em;
+    margin: 0.5em;
+}
+
+.pequeño{
+    color: grey;
+    font-weight: bold;
+}
+
+.subtitulos{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+    .lapiz{
+    font-size: small;
+    max-width: fit-content;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+    .lapiz{
+        font-size: x-small;
+        max-width: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 490px){
+.lapiz{
+    font-size: xx-small;
+    max-width: fit-content;
+}
+    
+}

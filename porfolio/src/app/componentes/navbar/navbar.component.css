@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #000000;
+    color: white;
+}
+#name{
+    font-size: x-large;
+}
+
+#logos{
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px){
+    
+        #name{
+            font-size: large;
+        }
+    
+        #logos{
+            font-size: large;       
+        }
+    
+        #botonLog{
+            font-size:small;
+            width:auto;
+        }
+    
+        #botonLogOut{
+            font-size:small;
+            width:auto;
+        }
+    }
+
+    @media only screen and (max-width: 490px){
+        /* estilos navbar*/
+            #name{
+                font-size: small;
+            }
+        
+            #logos{
+                font-size: small;
+            }
+            #botonLog{
+                font-size:xx-small;
+                width:auto;
+            }
+        
+            #botonLogOut{
+                font-size:xx-small;
+                width:auto;
+            }
+        }

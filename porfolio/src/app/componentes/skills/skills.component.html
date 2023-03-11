@@ -1,0 +1,84 @@
+<div class="card">
+    <h3 class="titulos"> Hard Skills & Soft Skills 
+        <!--trigger Skills-->
+    <button type="button" class="btn btn-dark lapiz" data-bs-toggle="modal" data-bs-target="#skills">
+        <i class="fa-solid fa-pen"></i>
+    </button>
+    </h3>
+   
+<!--progress bars--> 
+<div class="barras">
+    
+    <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+       <div class="progress-bar progress-bar-striped " style="width: 90%"></div>
+    </div>
+    <p>Resolución de problemas</p>
+    
+    <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 100%"></div>
+    </div>
+    <p>Comunicación - Expresión escrita</p>
+    
+    <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-info" style="width: 80%"></div>
+    </div>
+    <p>HTML</p>
+    
+    <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+    </div>
+    <p>CSS</p>
+    
+    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-danger" style="width: 25%"></div>
+    </div>
+    <p>JavaScript</p>
+    
+    <div class="progress" role="progressbar" aria-label="text-warning-emphasis" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-dark" style="width: 75%"></div>
+    </div>
+    <p>Bootstrap</p>
+    
+    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped" style="width: 50%" ></div>
+    </div>
+    <p>Git y Github</p>
+    
+    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-danger" style="width: 60%"></div>
+    </div>
+    <p>Python</p>
+</div>    
+
+</div>
+
+
+<!-- Modal Skills -->
+<div class="modal fade" id="skills" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Información</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+        
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="skills" style="height: 100px" required></textarea>
+                    <label for="skills">Escribe el texto aquí</label>
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                     <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+          
+        </div>
+       
+      </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="card">
+    <h3 class="titulos"> Acerca de
+
+    <!--trigger Acerca de-->
+    <button type="button" class="btn btn-dark lapiz" data-bs-toggle="modal" data-bs-target="#acercaDe">
+        <i class="fa-solid fa-pen"></i>
+    </button> </h3>
+    <p>Profesora de Inglés, inicializandome en el mundo de la programación con conocimientos en html, css, javascript y python, entre otras.</p>
+    <p>Me considero una persona responsable, ordenada, proactiva, autodidacta, sociable y con capacidad para el trabajo en equipo, la comunicación y la resolución de conflictos.</p>
+</div>
+
+<!-- Modal Acerca de -->
+<div class="modal fade" id="acercaDe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Información</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+        
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="acercaDe" style="height: 100px"></textarea>
+                    <label for="acercaDe">Escribe el texto aquí</label>
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                     <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+          
+        </div>
+       
+      </div>
+    </div>
+</div>
